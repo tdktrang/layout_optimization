@@ -5,7 +5,12 @@
 This project implements a multi-stage optimization approach to solve the nonconvex facility layout problem, based on the methodology described in the paper "A quadratic assignment formulation of the nonconvex layout problem" by Al-Sultan and Van Slyke (1992). The goal is to determine the optimal placement and dimensions of departments within a facility to minimize transportation costs while satisfying area and non-overlap constraints.
 
 The code is contained within the Jupyter Notebook: `Nonconvex_Layout_problem.ipynb`.
+Reference
+This implementation is based on:
 
+Al-Sultan, K. S., & Van Slyke, R. M. (1992). A quadratic assignment formulation of the nonconvex layout problem. European Journal of Operational Research, 62(2), 185-199.
+
+https://www.sciencedirect.com/science/article/pii/0377221792900417
 ## How it Works
 
 The optimization process follows a multi-stage approach:
